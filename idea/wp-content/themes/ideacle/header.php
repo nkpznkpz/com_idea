@@ -69,7 +69,7 @@
 ?>
 </head>
 
-<body onload="load_animations()">
+<body>
 <div class="header_img" id="aside2">
 	
     <div class="topnav">

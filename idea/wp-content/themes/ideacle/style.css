@@ -1,9 +1,9 @@
 /*  
-Theme Name: Envision
+Theme Name: iDeacle Theme
 Version: 1.0
-Description: Designed by <a href="http://www.themefuse.com">ThemeFuse</a>
+Description: Designed by <a href="http://www.ideacle.com">iDeacle</a>
 Author: ThemeFuse
-Author URI: http://www.themefuse.com
+Author URI: http://www.ideacle.com
 */
 
 /* 
@@ -838,13 +838,16 @@ button:hover,button:focus{
 .topmenu .current-menu-parent a span,
 .topmenu .current-menu-ancestor a span
 {
-	background:url(images/topm_bg_right.png) top right no-repeat}
+	background:url(images/topm_bg_right.png) top right no-repeat
+	}
 
 .topmenu li.parent:hover a {
-	background:url(images/topm_bg2_left.png) top left no-repeat}
+	background:url(images/topm_bg2_left.png) top left no-repeat
+	}
 
 .topmenu li.parent:hover a span {
-	background:url(images/topm_bg2_right.png) top right no-repeat}
+	background:url(images/topm_bg2_right.png) top right no-repeat
+	}
 
 .topmenu li:hover {
 	position: relative;

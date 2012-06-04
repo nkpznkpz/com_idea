@@ -20,12 +20,11 @@ $path = get_template_directory_uri();
 <!-- slider -->        
 
     <div class="container_12">
-        <div class="slider">
-        	
+        <div class="slider">        	
             	<div id="header_images">
-					<img src="<?php echo $path; ?>/images/slider1_image_1.jpg" class="header_image" color="#17191e" alt="" link="#link1" />
-                    <img src="<?php echo $path; ?>/images/slider1_image_2.jpg" class="header_image" color="#054065" alt="" link="#link2" />
-                    <img src="<?php echo $path; ?>/images/slider1_image_3.jpg" class="header_image" color="#3f0731" alt="" link="#link3" />
+					<img src="<?php echo $path; ?>/images/slider1_image_1.jpg" class="header_image" color="" alt="" link="#link1" />
+                    <img src="<?php echo $path; ?>/images/slider1_image_2.jpg" class="header_image" color="" alt="" link="#link2" />
+                    <img src="<?php echo $path; ?>/images/slider1_image_3.jpg" class="header_image" color="" alt="" link="#link3" />
 				</div>
                 <div class="header_controls">            
                 <a href="#" id="header_controls_left">Previous</a>
@@ -43,8 +42,8 @@ $path = get_template_directory_uri();
 <div class="container_12 bar">
         <div class="bar-icon"><img src="<?php echo $path; ?>/images/icon_rss.png" width="80" height="80" alt="" /></div>
         <div class="bar-title">
-            <h1>Welcome to <span>Envision</span>, the interactive agency!</h1>
-            <div class="sub-text">We have a passion for pixel perfect design. But don’t take our word for it, look for yourself:</div>
+            <h1>We <span>iDeacle</span> Best Software, Design and Solution</h1>
+            <div class="sub-text">ซอฟแวร์ที่ดีที่สุดต้องมาพร้อมการออกแบบที่ดีที่สุด และมาเพื่อตอบโจทย์ของคุณมากที่สุด</div>
         </div>
         <div class="bar-right">
         	<a href="javascript:void(0);" class="button_link large_button"><span>View Portfolio</span></a></div>
@@ -61,22 +60,24 @@ $path = get_template_directory_uri();
     
     <div class="col col_1_3">
     	<div class="inner">
-   	  	<h2>Multiple Colors &amp; Slider options</h2>
-        <p> Sliders in all forms &amp; colors: Javascript, Flash, you<img src="<?php echo $path; ?>/images/temp_img_1.png" alt="" width="93" height="76" class="alignright" /> name it! We’ve got it! But the best part is that they can be easily modified to fit your company’s look &amp; feel.  </p>
-        <a href="#" class="link-more">more details</a>        </div>
+   	  	<h2>Best Software</h2>
+        <p> เราเน้นออกแบบผลิตภัณฑ์ของเราให้ใช้งานง่าย<img src="<?php echo $path; ?>/images/temp_img_1.png" alt="" width="93" height="76" class="alignright" /> ทำให้การใช้งานไม่ใช่เรื่องยาก  และซอฟแวร์ของเรายังออกแบบตามมาตรฐานที่นิยมใช้กันทั่วโลก ทำให้มั่นใจได้ว่า
+	พัฒนาซอฟแวร์กับเราจะไม่มีคำว่าล้าสมัยอีกต่อไป </p> 
+        <a href="#" class="link-more">เพิ่มเติม</a>        </div>
 	</div>
     
 <div class="col col_1_3">
     	<div class="inner">
-   	  	<h2>Award winning design &amp; coding</h2>
-        <p>These three icons below the text paragraphs<img src="<?php echo $path; ?>/images/temp_img_2.png" alt="" width="93" height="76" class="alignright" /> are custom created for the Envision theme &amp; the  included PSD files contain all the layers needed to edit them. </p>
-        <a href="#" class="link-more">more details</a>      </div>
+   	  	<h2>Best Design</h2>
+        <p>การออกแบบที่ดี คือการออกแบบให้ผู้ใช้ได้ใช้งานง่ายที่สุด เรียบง่ายที่สุด<img src="<?php echo $path; ?>/images/temp_img_2.png" alt="" width="93" height="76" class="alignright" />และยังคำนึงถึงการออกแบบยังสามารถเปิดใช้งานได้บนมือถือและแทบเลต และพวกเราอยากเห็นลูกค้าได้มีความสุขทุกครั้งที่ได้ใช้งานซอฟแวร์ ก็เพียงพอแล้ว  </p>
+        <a href="#" class="link-more">เพิ่มเติม</a>      </div>
     </div>
 <div class="col col_1_3">
     	<div class="inner">
-   	  	<h2>Great support in just 24 hours</h2>
-        <p> If you buy this theme we offer 24 hours <img src="<?php echo $path; ?>/images/temp_img_3.png" width="80" height="76" class="alignright" alt="" />response time on our dedicated support forums.  That’s “best in class” support offer, it just can’t get better &amp; faster than this!</p>
-		<a href="#" class="link-more">more details</a>      </div>
+   	  	<h2>Best Solution</h2>
+        <p> พวกเราเน้นพัฒนาซอฟแวร์เพื่อแก้ปัญหาให้กับลูกค้า<img src="<?php echo $path; ?>/images/temp_img_3.png" width="80" height="76" class="alignright" alt="" />  ลดขั้นตอนการทำงาน  ช่วยเพิ่มประสิทธิภาพในกระบวนการทำงานให้ดียิ่งขึ้น  ไม่เพียงแต่ลูกค้าจะได้ซอฟแวร์ตามความต้องการ
+	แต่เรายังให้การดูแลท่านเหมือนเป็นครอบครัวเดียวกันกับเรา</p>
+		<a href="#" class="link-more">เพิ่มเติม</a>      </div>
     </div>
     <div class="divider_space"></div>
     
@@ -85,7 +86,7 @@ $path = get_template_directory_uri();
         <div class="col col_2_3">
             <div class="inner">
                 <div class="quoteBox-big">
-                    <div class="quote-title"><strong>WHAT OTHERS SAY ABOUT US:</strong></div>
+                    <div class="quote-title"><strong>iDeacle Qoute:</strong></div>
                     <div class="quote-text">Over the last eighteen months our sales have increased three-fold since the launch of our new web site. We have to say it has made us delighted we chose Envision.</div>
                     <div class="quote-author"><span class="violet">George Mansion,</span>  founder Silicon App Inc</div>    
                 </div>
@@ -99,14 +100,10 @@ $path = get_template_directory_uri();
                 <div class="newsletterBox">
                 	<div class="bg">
                         <div class="ribbon"></div>
-                        <h2>Stay in touch with us!</h2>
-                        <div class="before-text">Sign up for our weekly newsletter to receive updates, news, and interesting tidbits.</div>
-                        <form action="" method="post">
-                            <input type="text" value="" name="" class="inputField" />
-                            <input type="submit" value="" name="" class="btn-submit" />
-                            <div class="clear"></div>
-                        </form>
-                	</div>
+                        <h2>iDea Cleaver</h2>
+                        <div>เรายินดีอย่างยิ่งที่เราเป็นส่วนหนึ่งของท่าน และขอโอกาสให้เราได้รับใช้ท่านอีกครั้ง</div><br/>
+						<div class="quote-author"><span class="violet">Palakorn Nakphong</span>  iDeacle Team</div> 
+                    </div>
                 </div>
                 <!--/ newsletter -->
             </div>
@@ -132,8 +129,8 @@ $path = get_template_directory_uri();
                 <div class="tabcontent">
                 	<div class="inner">
                 	<img src="<?php echo $path; ?>/images/temp/temp_img_1.jpg" alt="" width="230" height="143" class="alignleft" />
-                	<h3>Creative webdesign</h3>
-                    <p>The point of using Lorem Ipsum is that it has a near “more-or-less” normal and distribution of letters.</p>
+                	<h3>Creative Webdesign</h3>
+                    <p>บริการออกแบบและพัฒนาเว็บไซต์ ทั้งเว็บสำเร็วรูป  เว็บบอร์ด เว็บบล๊อก ร้านค้าออนไลน์ และอื่นๆตามที่ลูกค้าต้องการ</p>
                     
                     <div class="clear"></div>
                     </div>
@@ -141,16 +138,16 @@ $path = get_template_directory_uri();
                 <div class="tabcontent">
                 	<div class="inner">
                 	<img src="<?php echo $path; ?>/images/temp/temp_img_2.jpg" alt="" width="230" height="143" class="alignleft" />
-                	<h3>Apps for Mobile phones</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod . <a href="#tabcontent1">Jump to first tab.</a></p>
+                	<h3>Application and Web Application</h3>
+                    <p>บริการออกแบบเว็บแอฟพลิเคชั่นและแอฟพลิเคชัน ตามความต้องการของลูกค้า</p>
                     <div class="clear"></div>
                     </div>
 				</div>
                 <div class="tabcontent">
                 	<div class="inner">
                 	<img src="<?php echo $path; ?>/images/temp/temp_img_3.jpg" alt="" width="230" height="143" class="alignright" />
-                	<h3>Statistics</h3>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                	<h3>Consount</h3>
+                    <p>บริการให้คำปรึกษาในการออกแบบโปรแกรมเพื่อใช้ในทางธุกิจ และบริการออกแบบเว็บแอฟพลิเคชั่นเพื่อเพิ่มประสิทธิภาพให้กับธุกิจ</p>
                     
                 	<div class="clear"></div>
                     </div>
@@ -175,25 +172,24 @@ $path = get_template_directory_uri();
                 <div class="tabcontent">
                 	<div class="inner">
                 	<img src="<?php echo $path; ?>/images/temp/temp_img_3.jpg" alt="" width="230" height="143" class="alignleft" />
-                	<h3>Apps for Mobile phones</h3>
-                    <p>The point of using Lorem Ipsum is that it has a near “more-or-less” normal and distribution of letters.</p>
+                	<h3>Mobile,tablets Compatible</h3>
+                    <p>เพิ่มประสิทธิภาพให้กับเว็บไซต์ ด้วยการออกแบบให้รองรับในการเปิดชมได้ในมือถือและแทฟเลต</p>
                     
                     <div class="clear"></div>
                     </div>
               	</div>
                 <div class="tabcontent">
                 	<div class="inner">
-               	  	<h3>Everything for your need!</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+               	  	<h3>Everything for your need</h3>
+                    <p>แก้ไขปัญหาที่ซับซ้อน ด้วย ซอฟแวร์จากเรา คิดค้นวิธีใหม่ๆที่ช่วยลดกระบวนการทำงานให้กับอุตสาหกรรมของท่าน</p>
                     <div class="clear"></div>
                     </div>
 				</div>
                 <div class="tabcontent">
                 	<div class="inner">
                 	<img src="<?php echo $path; ?>/images/temp/temp_img_2.jpg" alt="" width="230" height="143" class="alignleft" />
-                	<h3>Weather</h3>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                	<h3>Cloud Computing</h3>
+                    <p>บริการออกแบบแอฟพลิเคชัน ขนาดใหญ่ที่รองรับผู้ใช้งานจำนวนมาก ข้อมูลจำนวนมาก และปรับแต่งเว็บไซต์ให้มีประสิทธิภาพสูงสุด</p>
                     
                 	<div class="clear"></div>
                     </div>
