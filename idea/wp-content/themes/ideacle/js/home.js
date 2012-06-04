@@ -103,6 +103,9 @@ function load_animations(){
 		var interval_header = setInterval(timerFunction, 4000);
 		
 		function timerFunction(){
-		animate_header('right',0);
+			//animate_header('right',0);
 		}
 }
+$(function(){
+	load_animations();
+})

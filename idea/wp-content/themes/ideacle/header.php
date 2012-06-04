@@ -73,60 +73,18 @@
 <div class="header_img" id="aside2">
 	
     <div class="topnav">
-    	<div class="container_12">
-        
-		<div class="logo"><a href="index.html"><img src="<?php echo $path; ?>/images/logo.png" alt="ENVISION" width="157" height="36" border="0" /></a></div>
-
+    	<div class="container_12">        
+		<div class="logo"><a href="index.html"><img src="<?php echo $path; ?>/images/logo.png" alt="IDEACLE" width="157" height="36" border="0" /></a></div>
 <!-- topmenu -->            
         <div class="menu-header">
         
 	        <ul class="topmenu">
-				<li class="parent first current-menu-item"><a href="#"><span>Sliders</span></a>
-                	<ul class="sub-menu">
-                        <li class="first"><a href="index.html"><span>Main slider</span></a></li>
-                        <li><a href="index-slider-images.html"><span>Nivo slider</span></a></li>
-                        <li><a href="index-slider-text.html"><span>Text / Video slider</span></a></li>                        
-                    </ul>
-                </li>
-              	<li class="parent"><a href="#"><span>Pages</span></a>
-                    <ul class="sub-menu">
-                        <li class="first"><a href="page-sidebar-r.html"><span>Pages with Sidebar</span></a></li>
-                        <li class="parent"><a href="#"><span>Portfolio pages</span></a>
-                        	<ul class="sub-menu">
-                            	<li class="first"><a href="portfolio.html"><span>1 column with Sidebar</span></a></li>
-                            	<li><a href="portfolio-2cols.html"><span>2 columns with Sidebar</span></a></li>
-                                <li><a href="portfolio-3cols.html"><span>3 columns Full Width</span></a></li>
-                                <li class="last"><a href="portfolio-4cols.html"><span>4 columns Full Width</span></a></li>
-                             </ul>
-                        </li>
-                        <li class="last"><a href="page-pricing.html"><span>Pricing page</span></a></li>
-                    </ul>
-              </li>
-              <li class="parent"><a href="#"><span>Styles</span></a>
-              		<ul class="sub-menu">
-                        <li class="first"><a href="styles-columns.html"><span>Column Shortcodes</span></a></li>
-                        <li><a href="styles-typography.html"><span>Typography</span></a></li>
-						<li class="last"><a href="styles-shortcodes.html"><span>HTML Shortcodes</span></a></li>                        
-                    </ul>
-              </li>
-              <li class="parent"><a href="#"><span>Portfolio</span></a>
-					<ul class="sub-menu">
-                        <li class="first parent"><a href="#"><span>With sidebar</span></a>
-                        	<ul class="sub-menu">
-                            	<li class="first"><a href="portfolio.html"><span>1 column</span></a></li>
-                            	<li class="last"><a href="portfolio-2cols.html"><span>2 columns</span></a></li>
-                             </ul>
-                        </li>
-                        <li class="parent last"><a href="#"><span>Full width</span></a>	
-                        	<ul class="sub-menu">
-                                <li><a href="portfolio-3cols.html"><span>3 columns</span></a></li>
-                                <li class="last"><a href="portfolio-4cols.html"><span>4 columns</span></a></li>
-                             </ul>
-						</li>										
-                    </ul>
-              </li>
-              <li><a href="blog.html"><span>Blog</span></a></li>
-              <li class="last"><a href="contacts.html"><span>Contact</span></a></li>
+				<li class="parent first current-menu-item"><a href="#"><span>What We Do</span></a></li>
+              	<li class="parent"><a href="#"><span>Service</span></a></li>
+              	<li class="parent"><a href="#"><span>Portfolio</span></a></li>
+              	<li class="parent"><a href="#"><span>Blog</span></a></li>
+              	<li class="parent"><a href="blog.html"><span>iDeacle Team</span></a></li>
+              	<li class="last"><a href="contacts.html"><span>Contact</span></a></li>
        	  </ul>
         </div>
 <!--/ topmenu -->        
