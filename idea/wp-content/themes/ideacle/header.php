@@ -44,7 +44,9 @@
 		<link href="<?php echo get_template_directory_uri(); ?>/css/style.css" media="screen" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 		<link href="<?php echo get_template_directory_uri(); ?>/styles/gray.css" media="screen" rel="stylesheet" type="text/css" />	
-		<script type="text/javascript" language="javascript" src="<?php echo $path; ?>/js/libs/jquery-1.7.2.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="<?php echo $path; ?>/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+		
 		<script type="text/javascript" language="javascript" src="<?php echo $path; ?>/js/libs/jquery.tools.min.js"></script>
 		<link rel="stylesheet" href="<?php echo $path; ?>/css/prettyPhoto.css" type="text/css" media="screen" />
 		<script src="<?php echo $path; ?>/js/libs/jquery.prettyPhoto.js" type="text/javascript"></script>
@@ -52,7 +54,7 @@
 		<script type="text/javascript" language="javascript" src="<?php echo $path; ?>/js/libs/jquery.easing.1.3.js"></script>
 		<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>/css/home.css" />	
 		<script type="text/javascript" language="javascript" src="<?php echo $path; ?>/js/home.js"></script>		
-		<script type="text/javascript" src="<?php echo $path; ?>/js/libs/modernizr-2.5.3.min.js"></script>
+		<script type="text/javascript" src="<?php echo $path; ?>/js/libs/backbone-min.js"></script>
 <?php
 	/* We add some JavaScript to pages with the comment form
 	 * to support sites with threaded comments (when in use).

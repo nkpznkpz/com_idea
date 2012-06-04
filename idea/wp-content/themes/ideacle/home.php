@@ -17,6 +17,8 @@ get_header(); ?>
 $path = get_template_directory_uri();
 
 ?>
+
+<script type="text/javascript" language="javascript" src="<?php echo $path; ?>/js/home.js"></script>
 <!-- slider -->        
 
     <div class="container_12">
@@ -205,5 +207,8 @@ $path = get_template_directory_uri();
 <!--/ middle body -->
 	
 
-
+<!-- scripts concatenated and minified via ant build script-->
+<script src="<?php echo $path; ?>/js/plugins.js"></script>
+<script src="<?php echo $path; ?>/js/script.js"></script>
+<!-- end scripts-->
 <?php get_footer(); ?>

@@ -17,11 +17,10 @@
 	        <div class="inner">
             	<h3>What we do</h3>
             	<ul>
-                	<li><a href="#">Interactive Technology</a></li>
-                    <li><a href="#">Online Marketing</a></li>
+                	<li><a href="#">Technology</a></li>
+                    <li><a href="#">Cutting Edge Technology</a></li>
                     <li><a href="#">Website Design</a></li>
-                    <li><a href="#">Strategy &amp; Analysis</a></li>
-                    <li><a href="#">E-Learning</a></li>
+                    <li><a href="#">Web Development</a></li>
                 </ul>
             </div>
         </div>
@@ -30,10 +29,9 @@
           <div class="inner">
             	<h3>Who We Are</h3>
             	<ul>
-                	<li><a href="#">About us</a></li>
+                	<li><a href="#">iDeacle Team</a></li>
                     <li><a href="#">Our History</a></li>
                     <li><a href="#">Vision that drives us</a></li>
-                    <li><a href="#">The Mission</a></li>
                 </ul>
             </div>
         </div>
@@ -42,18 +40,16 @@
           <div class="inner">
             	<h3>Featured work</h3>
             	<ul>
-                	<li><a href="#">Silicon App</a></li>
-                    <li><a href="#">Art Gallery</a></li>
-                    <li><a href="#">Bon Apetit </a></li>
-                    <li><a href="#">Exquisite Works</a></li>
-                    <li><a href="#">Clean Classy Corp</a></li>
+                	<li><a href="#">test app</a></li>
+                    <li><a href="#">test app</a></li>
+                    <li><a href="#">test app</a></li>
                 </ul>
             </div>
         </div>
         
         <div class="col_1_4 col">
           <div class="inner">
-            	<h3>From our Blog</h3>
+            	<h3>Blog</h3>
             	<ul>
                 	<li><a href="#">Just released WS 2.3</a></li>
                     <li><a href="#">Not going to support IE6...</a></li>
@@ -68,11 +64,10 @@
     	
         <div class="col_2_3 col">
 	        <div class="inner">
+				<a href="#" class="link-fb" title="Facebook">Facebook</a>  
             	<a href="#" class="link-twitter" title="Twitter">Twitter</a>
-                <a href="#" class="link-fb" title="Facebook">Facebook</a>
-                <a href="#" class="link-flickr" title="Flickr">Flickr</a>
-                <a href="#" class="link-da" title="deviantART">deviantART</a>
-                <a href="#" class="link-rss" title="RSS Feed">RSS Feed</a>            </div>
+                      
+			</div>
         </div>
         
         <div class="col_1_3 col">
