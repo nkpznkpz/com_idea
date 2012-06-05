@@ -2,9 +2,26 @@
 
 */
 
+var ideacle = Backbone.Router.extend({
+  routes: {
+    "/":                 "home",
+    "#!/:pageName":  "page",
+    "search/:query/p:page": "search"
+  },
+
+  home: function() {
+    alert("home");
+  },
+
+  page: function(pageName) {
+	alert(pageName);
+  }
+
+});
+
 $(function(){
-	alert("test test");
-	console.log("========");
+	Backbone.history.start({pushState: true});
+	
 });
 
 

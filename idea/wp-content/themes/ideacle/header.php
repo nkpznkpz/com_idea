@@ -53,7 +53,7 @@
 		<script type="text/javascript" language="javascript" src="<?php echo $path; ?>/js/general.js"></script>
 		<script type="text/javascript" language="javascript" src="<?php echo $path; ?>/js/libs/jquery.easing.1.3.js"></script>
 		<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>/css/home.css" />	
-		<script type="text/javascript" language="javascript" src="<?php echo $path; ?>/js/home.js"></script>		
+		
 		<script type="text/javascript" src="<?php echo $path; ?>/js/libs/backbone-min.js"></script>
 <?php
 	/* We add some JavaScript to pages with the comment form
