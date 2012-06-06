@@ -44,7 +44,7 @@
 		<link href="<?php echo get_template_directory_uri(); ?>/css/style.css" media="screen" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 		<link href="<?php echo get_template_directory_uri(); ?>/styles/gray.css" media="screen" rel="stylesheet" type="text/css" />	
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<!--	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
 		<script>window.jQuery || document.write('<script src="<?php echo $path; ?>/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
 		
 		<script type="text/javascript" language="javascript" src="<?php echo $path; ?>/js/libs/jquery.tools.min.js"></script>
@@ -54,7 +54,9 @@
 		<script type="text/javascript" language="javascript" src="<?php echo $path; ?>/js/libs/jquery.easing.1.3.js"></script>
 		<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>/css/home.css" />	
 		
+		<script type="text/javascript" src="<?php echo $path; ?>/js/libs/underscore-min.js"></script>
 		<script type="text/javascript" src="<?php echo $path; ?>/js/libs/backbone-min.js"></script>
+		
 <?php
 	/* We add some JavaScript to pages with the comment form
 	 * to support sites with threaded comments (when in use).
@@ -81,7 +83,7 @@
         <div class="menu-header">
         
 	        <ul class="topmenu">
-				<li class="parent first current-menu-item"><a href="#"><span>What We Do</span></a></li>
+				<li class="parent first current-menu-item"><a href="#!/ppp"><span>What We Do</span></a></li>
               	<li class="parent"><a href="#"><span>Service</span></a></li>
               	<li class="parent"><a href="#"><span>Portfolio</span></a></li>
               	<li class="parent"><a href="#"><span>Blog</span></a></li>

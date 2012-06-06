@@ -2,11 +2,15 @@
 
 */
 
-var ideacle = Backbone.Router.extend({
+window.AppMain = Backbone.Router.extend({
   routes: {
-    "/":                 "home",
-    "#!/:pageName":  "page",
-    "search/:query/p:page": "search"
+    '':                 'home',
+    '#/:pageName':  'page',
+    '/search/:query/p:page': 'search'
+  },
+
+  initialize: function() {
+ 
   },
 
   home: function() {
@@ -15,13 +19,15 @@ var ideacle = Backbone.Router.extend({
 
   page: function(pageName) {
 	alert(pageName);
+	console.log("Page name ");
   }
 
 });
 
 $(function(){
+	window.App = new AppMain();	
 	Backbone.history.start({pushState: true});
-	
+	window.App.home();	
 });
 
 
