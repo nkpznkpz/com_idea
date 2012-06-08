@@ -17,22 +17,54 @@ get_header(); ?>
 $path = get_template_directory_uri();
 
 ?>
-
+<script type="text/javascript" src="<?php echo $path; ?>/js/libs/jmpress.min.js"></script>
+<script type="text/javascript" src="<?php echo $path; ?>/js/libs/jquery.jmslideshow.js"></script>
 <script type="text/javascript" language="javascript" src="<?php echo $path; ?>/js/home.js"></script>
 <!-- slider -->        
 
     <div class="container_12">
-        <div class="slider">        	
-            	<div id="header_images">
-					<img src="<?php echo $path; ?>/images/slider1_image_1.jpg" class="header_image" color="" alt="" link="#link1" />
-                    <img src="<?php echo $path; ?>/images/slider1_image_2.jpg" class="header_image" color="" alt="" link="#link2" />
-                    <img src="<?php echo $path; ?>/images/slider1_image_3.jpg" class="header_image" color="" alt="" link="#link3" />
-				</div>
-                <div class="header_controls">            
-                <a href="#" id="header_controls_left">Previous</a>
-                <a href="#" id="header_controls_right">Next</a>                </div>
-                <div id="overlay_bg"></div>
-        </div>
+     			<section id="jms-slideshow" class="jms-slideshow">
+						<div class="step">
+							<div class="jms-content">
+								<h3>Just when I thought...</h3>
+							<p>From fairest creatures we desire increase, that thereby beauty's rose might never die</p>
+								<a class="jms-link" href="#">Read more</a>
+							</div>
+							<img src="<?php echo $path; ?>/images/1.png" />
+						</div>
+						<div class="step" data-y="900" data-rotate-x="80">
+							<div class="jms-content">
+								<h3>Holy cannoli!</h3>
+							<p>But as the riper should by time decease, his tender heir might bear his memory</p>
+								<a class="jms-link" href="#">Read more</a>
+							</div>
+							<img src="<?php echo $path; ?>/images/2.png" />
+						</div>
+						<div class="step" data-x="-100" data-z="1500" data-rotate="170">
+							<div class="jms-content">
+								<h3>No time to waste</h3>
+							<p>Within thine own bud buriest thy content and, tender churl, makest waste in niggarding</p>
+								<a class="jms-link" href="#">Read more</a>
+							</div>
+							<img src="<?php echo $path; ?>/images/3.png" />
+						</div>
+						<div class="step" data-x="3000">
+							<div class="jms-content">
+								<h3>Supercool!</h3>
+							<p>Making a famine where abundance lies, thyself thy foe, to thy sweet self too cruel</p>
+								<a class="jms-link" href="#">Read more</a>
+							</div>
+							<img src="<?php echo $path; ?>/images/4.png" />
+						</div>
+						<div class="step" data-x="4500" data-z="1000" data-rotate-y="45">
+							<div class="jms-content">
+								<h3>Did you know that...</h3>
+							<p>Thou that art now the world's fresh ornament and only herald to the gaudy spring</p>
+								<a class="jms-link" href="#">Read more</a>
+							</div>
+							<img src="<?php echo $path; ?>/images/5.png" />
+						</div>
+					</section>
     </div>
    
 <!--/ slider -->    

@@ -55,8 +55,7 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>/css/home.css" />	
 		
 		<script type="text/javascript" src="<?php echo $path; ?>/js/libs/underscore-min.js"></script>
-		<script type="text/javascript" src="<?php echo $path; ?>/js/libs/backbone-min.js"></script>
-		
+		<script type="text/javascript" src="<?php echo $path; ?>/js/libs/backbone-min.js"></script>		
 <?php
 	/* We add some JavaScript to pages with the comment form
 	 * to support sites with threaded comments (when in use).
