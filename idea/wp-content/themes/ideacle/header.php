@@ -17,10 +17,9 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="description" content="web,software,Web Development">
-	<meta name="author" content="iDeacle,codingz">
-	<meta name="viewport" content="width=device-width">	
+	<meta name="description" content="web,software,Web Development" />
+	<meta name="author" content="iDeacle,Palakorn Nakphong" />
+	<meta name="viewport" content="width=device-width" />	
 	<title><?php
 		/*
 	 	* Print the <title> tag based on what is being viewed.
@@ -47,11 +46,11 @@
 	<!--	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
 		<script>window.jQuery || document.write('<script src="<?php echo $path; ?>/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
 		
-		<script type="text/javascript" language="javascript" src="<?php echo $path; ?>/js/libs/jquery.tools.min.js"></script>
+		<script type="text/javascript" src="<?php echo $path; ?>/js/libs/jquery.tools.min.js"></script>
 		<link rel="stylesheet" href="<?php echo $path; ?>/css/prettyPhoto.css" type="text/css" media="screen" />
 		<script src="<?php echo $path; ?>/js/libs/jquery.prettyPhoto.js" type="text/javascript"></script>
-		<script type="text/javascript" language="javascript" src="<?php echo $path; ?>/js/general.js"></script>
-		<script type="text/javascript" language="javascript" src="<?php echo $path; ?>/js/libs/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="<?php echo $path; ?>/js/general.js"></script>
+		<script type="text/javascript" src="<?php echo $path; ?>/js/libs/jquery.easing.1.3.js"></script>
 		<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>/css/home.css" />	
 		
 		<script type="text/javascript" src="<?php echo $path; ?>/js/libs/underscore-min.js"></script>
@@ -77,17 +76,17 @@
 	
     <div class="topnav">
     	<div class="container_12">        
-		<div class="logo"><a href="index.html"><img src="<?php echo $path; ?>/images/logo.png" alt="IDEACLE" width="157" height="36" border="0" /></a></div>
+		<div class="logo"><a href="/ideacle">idea</a></div>
 <!-- topmenu -->            
         <div class="menu-header">
         
 	        <ul class="topmenu">
-				<li class="parent first current-menu-item"><a href="#!/ppp"><span>What We Do</span></a></li>
-              	<li class="parent"><a href="#"><span>Service</span></a></li>
-              	<li class="parent"><a href="#"><span>Portfolio</span></a></li>
-              	<li class="parent"><a href="#"><span>Blog</span></a></li>
-              	<li class="parent"><a href="blog.html"><span>iDeacle Team</span></a></li>
-              	<li class="last"><a href="contacts.html"><span>Contact</span></a></li>
+				<li class="parent first current-menu-item"><a href="#!/we"><span>What We Do</span></a></li>
+              	<li class="parent"><a href="#!/service"><span>Service</span></a></li>
+              	<li class="parent"><a href="#!/portfolio"><span>Portfolio</span></a></li>
+              	<li class="parent"><a href="#!/blog"><span>Blog</span></a></li>
+              	<li class="parent"><a href="#!/iteam"><span>iDeacle Team</span></a></li>
+              	<li class="last"><a href="#!/contact"><span>Contact</span></a></li>
        	  </ul>
         </div>
 <!--/ topmenu -->        

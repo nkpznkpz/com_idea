@@ -7,6 +7,6 @@ $(function() {
 		autoplay	: true,
 		bgColorSpeed: '0.5s',
 		arrows		: false,
-		interval    : 10000
+		interval    : 20000
 	}));		
 });

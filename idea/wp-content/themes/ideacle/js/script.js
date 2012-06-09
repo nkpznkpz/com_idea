@@ -16,12 +16,19 @@ window.AppMain = Backbone.Router.extend({
   
 
   page: function(pageName) {
-//	alert(pageName);
+	if(pageName == "we"){
+		console.log("www");
+	}else if(pageName == "contect"){
+		
+		
+	}
 	console.log("Page name ");
   },
 
   home: function() {
-//	    alert("home");
+	console.log("home======");
+//	$("ideacle-home").show();
+	
   }
 
 });

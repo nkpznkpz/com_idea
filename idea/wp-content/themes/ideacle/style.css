@@ -778,11 +778,16 @@ button:hover,button:focus{
 
 .topnav {
 	background:url(images/head_bg.png) 0 0 repeat-x;
-	height:90px;
+	height: 60px;
+	width: 100%;
 	box-shadow: 0 1px 5px rgba(34, 25, 25, 0.4);
 	-moz-box-shadow: 0 1px 4px rgba(34,25,25,0.4);
 	-webkit-box-shadow: 0 3px 3px 
 	rgba(34, 25, 25, 0.4);
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
 }
 
 .topnav .container_12  {
@@ -790,14 +795,14 @@ button:hover,button:focus{
 	z-index:5000}
 
 .logo {
-	padding:30px 10px 0 10px;
-	width:160px;
-	height:60px;
+	padding:12px 10px 0 10px;
+	width:140px;
+	height:39px;
 	float:left;
 	}
 
 .menu-header {
-	padding-top:30px;
+	padding-top:12px;
 	text-shadow:#000 1px 1px 1px;
 	width:780px;
 	height:60px;
@@ -1470,7 +1475,7 @@ a.nivo-nextNav:hover {
 	color:#437c0c}
 	
 .middle {
-	padding-bottom:90px}
+	padding-bottom:10px}
 
 .wrapper {
 	width:960px;
@@ -1533,18 +1538,13 @@ a.nivo-nextNav:hover {
 /* 2.8 Footer */
 /*----------------------------------------------*/
 .footer {
-	background:url(images/footer_bg.gif);
 	color:#6c727b;
 	font-size:13px;
 	position:relative}
 
-.footer_bg {
-	background:url(images/footer_top.gif) top repeat-x}
-
 .footer .container_12 {
-	min-height:250px;
 	padding:21px 0 20px 0;
-	background:url(images/footer_highlight.png) 0 0 no-repeat}
+}
 
 .footer .col h3, .footer h3 {
 	font-size:21px;
