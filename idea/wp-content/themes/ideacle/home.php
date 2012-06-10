@@ -13,15 +13,16 @@
  */
 
 get_header(); ?>
+
 <?php
 $path = get_template_directory_uri();
 
 ?>
 <script type="text/javascript" src="<?php echo $path; ?>/js/libs/jmpress.min.js"></script>
 <script type="text/javascript" src="<?php echo $path; ?>/js/libs/jquery.jmslideshow.js"></script>
-<script type="text/javascript" src="<?php echo $path; ?>/js/home.js"></script>
+<div id="page-home" class="ideacle-page">
+
 <!-- slider -->        
-    <div class="container_12">
      			<section id="jms-slideshow" class="jms-slideshow">
 						<div class="step" data-x="-100" data-z="1500" data-rotate="170">
 							<div class="jms-content">
@@ -32,7 +33,7 @@ $path = get_template_directory_uri();
 							<img src="<?php echo $path; ?>/images/3.png" />
 						</div>
 							
-						<div class="step" data-x="-10" data-z="1500" data-rotate-y="170">
+						<div class="step" data-x="-10" data-z="1500" data-rotate-="10">
 							<div class="jms-content">
 								<h3>Perfect Design</h3>
 							<p>Perfection (in design) is achieved not when there is nothing more to add, but rather<br/>when there is nothing more to take away.</p>
@@ -50,11 +51,8 @@ $path = get_template_directory_uri();
 						</div>
 					
 					</section>
-    </div>
    
-<!--/ slider -->    
-</div>
-
+<!--/ slider -->  
 
 <div class="welcome_bar">
 <!-- bar -->	
@@ -230,9 +228,14 @@ $path = get_template_directory_uri();
 </div>
 <!--/ middle body -->
 
+<script type="text/javascript" src="<?php echo $path; ?>/js/home.js"></script>
+
+
+
+<!-- end scripts-->
+<?php get_footer(); ?>
+</div><!-- end home -->
 
 <!-- scripts concatenated and minified via ant build script-->
 <script src="<?php echo $path; ?>/js/plugins.js"></script>
 <script src="<?php echo $path; ?>/js/script.js"></script>
-<!-- end scripts-->
-<?php get_footer(); ?>

@@ -144,6 +144,34 @@ table { border-collapse: collapse; border-spacing: 0; }/* tables still need 'cel
 	font-weight: bold;
 	font-style: italic;
 }
+
+/* logo font */
+@font-face {
+    font-family: 'SpaceAgeRegular';
+    src: url('styles/font_logo/space_age-webfont.eot');
+    src: url('styles/font_logo/space_age-webfont.eot?#iefix') format('embedded-opentype'),
+         url('styles/font_logo/space_age-webfont.woff') format('woff'),
+         url('styles/font_logo/space_age-webfont.ttf') format('truetype'),
+         url('styles/font_logo/space_age-webfont.svg#SpaceAgeRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'supermarketRegular';
+    src: url('styles/font_logo/supermarket-webfont.eot');
+    src: url('styles/font_logo/supermarket-webfont.eot?#iefix') format('embedded-opentype'),
+         url('styles/font_logo/supermarket-webfont.woff') format('woff'),
+         url('styles/font_logo/supermarket-webfont.ttf') format('truetype'),
+         url('styles/font_logo/supermarket-webfont.svg#supermarketRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*----------------------------------------------*/
 /* 1.3 General Styles */
 /*----------------------------------------------*/
@@ -796,11 +824,30 @@ button:hover,button:focus{
 
 .logo {
 	padding:12px 10px 0 10px;
-	width:140px;
+	width:160px;
 	height:39px;
 	float:left;
+	font-size: 50px;
+	font-weight: bold;
+	color:#fff; /*569044*/
+	text-shadow: 0px 2px 3px #171717;
+	font-family: 'SpaceAgeRegular';
+	text-align: center;
+	cursor: pointer;
+	display: block;
 	}
-
+.logo > div{
+	width: 100%;
+	float: left;
+	
+}
+.logo .l-main{
+	margin-bottom: 7px;
+	font-family: 'SpaceAgeRegular';
+}
+.logo .desc{
+	font-size: 14px;
+}
 .menu-header {
 	padding-top:12px;
 	text-shadow:#000 1px 1px 1px;
@@ -1540,7 +1587,7 @@ a.nivo-nextNav:hover {
 .footer {
 	color:#6c727b;
 	font-size:13px;
-	position:relative}
+}
 
 .footer .container_12 {
 	padding:21px 0 20px 0;

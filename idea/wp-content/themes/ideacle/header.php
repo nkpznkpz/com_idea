@@ -42,7 +42,7 @@
 		<!-- clear css-->
 		<link href="<?php echo get_template_directory_uri(); ?>/css/style.css" media="screen" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-		<link href="<?php echo get_template_directory_uri(); ?>/styles/gray.css" media="screen" rel="stylesheet" type="text/css" />	
+		<link href="<?php echo get_template_directory_uri(); ?>/styles/ideacle.css" media="screen" rel="stylesheet" type="text/css" />	
 	<!--	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
 		<script>window.jQuery || document.write('<script src="<?php echo $path; ?>/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
 		
@@ -73,13 +73,14 @@
 
 <body>
 <div class="header_img" id="aside2">
-	
     <div class="topnav">
     	<div class="container_12">        
-		<div class="logo"><a href="/ideacle">idea</a></div>
+		  <div class="logo">
+			<div class="l-main">IDEA</div>
+			<div class="desc">clever-circle</div>
+		  </div>
 <!-- topmenu -->            
-        <div class="menu-header">
-        
+          <div class="menu-header">        
 	        <ul class="topmenu">
 				<li class="parent first current-menu-item"><a href="#!/we"><span>What We Do</span></a></li>
               	<li class="parent"><a href="#!/service"><span>Service</span></a></li>
@@ -87,9 +88,10 @@
               	<li class="parent"><a href="#!/blog"><span>Blog</span></a></li>
               	<li class="parent"><a href="#!/iteam"><span>iDeacle Team</span></a></li>
               	<li class="last"><a href="#!/contact"><span>Contact</span></a></li>
-       	  </ul>
-        </div>
+       	    </ul>
+          </div>
 <!--/ topmenu -->        
 	</div>            
     </div>
+</div>
 <!--/ header -->

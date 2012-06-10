@@ -14,7 +14,7 @@
 	}
 
 #aside2 {
-	height:350px;
+	background:#ddd url(../images/fabric_plaid.png) repeat top left;
 	width:100%;}
 
 #header_controls_left, #header_controls_right {

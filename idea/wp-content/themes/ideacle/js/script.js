@@ -5,6 +5,7 @@
 window.AppMain = Backbone.Router.extend({
   routes: {
     "":             "home",
+	"!/home":       "home",
     "!/:pageName":  "page",
     "!/search/:query/p:page": 'search'
   },
@@ -16,8 +17,9 @@ window.AppMain = Backbone.Router.extend({
   
 
   page: function(pageName) {
+	$(".ideacle-page").hide();
 	if(pageName == "we"){
-		console.log("www");
+			
 	}else if(pageName == "contect"){
 		
 		
@@ -26,18 +28,17 @@ window.AppMain = Backbone.Router.extend({
   },
 
   home: function() {
-	console.log("home======");
-//	$("ideacle-home").show();
-	
+	$(".ideacle-page").hide();
+	$("#page-home").show();
+	$(window).scrollTop();
   }
 
 });
 
 $(function(){
+	$(".logo").click(function(){
+		window.App.home();
+	});
 	window.App = new AppMain();	
 	Backbone.history.start();	
 });
-
-
-
-
